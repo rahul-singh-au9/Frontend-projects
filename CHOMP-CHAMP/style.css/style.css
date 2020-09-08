@@ -1,0 +1,262 @@
+#home {
+  background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+  height: 90vh;
+  background: linear-gradient(0, 0, 0, 0.5);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#button1 {
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+#button2 {
+  margin-top: 25px;
+}
+
+#link1,#link2 {
+  color: white;
+}
+
+/* #header{
+  background-color: #263c41;
+} */
+
+#heading {
+  margin-left: 28%;
+  margin-top: 20%;
+  font-size: 70px;
+  color: white;
+}
+
+#subheading {
+  margin-left: 26%;
+  color: white;
+}
+
+#searchbar {
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 25px;
+}
+
+#dropdownMenuButton2 {
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+#dropdownMenuButton1 {
+  margin-top: 25px;
+}
+
+#result {
+  /* background: url("https://images.pexels.com/photos/245535/pexels-photo-245535.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=250&w=340"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background: linear-gradient(0, 0, 0, 0.5);
+  color: white;
+  font-weight: bolder;
+  background-color: #263c41;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#collection {
+  height: 110vh;
+}
+
+#photo1,
+#photo2,
+#photo3,
+#photo4 {
+  border: 1px solid #dee2e6;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+img {
+  border-radius: 10px;
+}
+
+#photo1 :hover {
+  transform: scale(1.1);
+}
+#photo2 :hover {
+  transform: scale(1.1);
+}
+#photo3 :hover {
+  transform: scale(1.1);
+}
+#photo4 :hover {
+  transform: scale(1.1);
+}
+
+#Get_the_app {
+  background-color: #263c41;
+}
+
+#app {
+  margin-top: 100px;
+  color: white;
+}
+
+#loc1,
+#loc2,
+#loc3,
+#loc4,
+#loc5 {
+  height: 33vh;
+  margin: 35px;
+}
+
+#loc1 {
+  background: url("https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: 5%;
+  color: white;
+}
+
+#loc2 {
+  background: url("https://images.pexels.com/photos/6267/menu-restaurant-vintage-table.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: 5%;
+  color: white;
+}
+
+#loc3 {
+  background: url("https://images.pexels.com/photos/67468/pexels-photo-67468.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: 5%;
+  color: white;
+}
+
+#loc4 {
+  background: url("https://images.pexels.com/photos/262047/pexels-photo-262047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: 5%;
+  color: white;
+}
+
+#loc5 {
+  background: url("https://images.pexels.com/photos/1307698/pexels-photo-1307698.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: 30%;
+  color: white;
+}
+
+.radio {
+  margin-top: 30px;
+}
+
+#get_app {
+  margin-top: 8px;
+  margin-right: 90px;
+}
+
+#butt {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #b76935;
+}
+
+#footer {
+  text-align: justify;
+  border: 1px solid gray;
+  background: linear-gradient(0, 0, 0, 0.5);
+}
+
+#company {
+  list-style: none;
+}
+
+#careers {
+  list-style: none;
+}
+
+a {
+  color: black;
+}
+
+.FH {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#FH {
+  margin-left: 30px;
+}
+
+#FH1 {
+  margin-left: 30px;
+}
+
+#social-icons {
+  cursor: pointer;
+}
+
+.soc {
+  cursor: pointer;
+}
+
+#copyright {
+  text-align: center;
+  color: white;
+  background-color: #263c41;
+  background: linear-gradient(0, 0, 0, 0.5);
+  border: 1px solid gray;
+}
+
+#DEVELOPER {
+  text-align: right;
+  margin-right: 2px;
+}
+
+/* #photo1{
+  background: url("https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#photo2{
+  background: url("https://images.pexels.com/photos/1089930/pexels-photo-1089930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#photo3{
+  background: url("https://images.pexels.com/photos/2885917/pexels-photo-2885917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#photo4{
+  background: url("https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2018/05/15162214/30412253_768353343358148_623535513717964800_o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+} */

@@ -1,0 +1,109 @@
+.head {
+  display: inline-block;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ul li {
+  display: inline-block;
+  font-size: larger;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+ul li a:hover {
+  color: brown;
+}
+
+#first {
+  margin-left: 800px;
+  margin-right: 20px;
+}
+#banner {
+  background: url("https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(0, 0, 0, 0.5);
+}
+
+#mission {
+  color: white;
+  margin: 15px;
+  padding: 15px;
+}
+
+#heading2,
+#heading3 {
+  text-align: center;
+}
+
+#banner2 {
+  margin-left: 150px;
+  margin-right: 150px;
+  padding-right: 150px;
+  margin-top: 20px;
+}
+img {
+  border-radius: 15px;
+}
+#who {
+  display: inline-block;
+  width: 30%;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: larger;
+  text-transform: capitalize;
+}
+
+#who2 {
+  width: 50%;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+#members img {
+  margin: 35px;
+  padding: 25px;
+  border-radius: 40px;
+  margin-top: 15px;
+}
+
+#blog {
+  text-align: center;
+}
+
+#blog2 img {
+  display: inline-block;
+  width: 27%;
+  height: 40%;
+  margin: 40px;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  cursor: pointer;
+}
+
+#blog2 p {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#back,
+#copyr {
+  text-align: center;
+}
+
+#back a {
+  color: green;
+  text-decoration: none;
+}
