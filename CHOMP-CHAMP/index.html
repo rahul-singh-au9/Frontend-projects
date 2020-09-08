@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+      <div id="home">
+        <!-- Start header -->
+        <div id="header" class="fixed-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <img src="slogo.png" alt="">
+              </div>
+              <div class="col-md-4 float-md-right">
+                <button type="button" class="btn btn-secondary" id="button1"><a href="index.html" id="link1">Home</a></button>
+      
+                <button type="button" class="btn btn-secondary" id="button2">
+                  <a href="AboutUs.html" id="link2">About Us</a></button>
+              </div>
+              <div class="col-md-5">
+                <div class="dropdown float-md-right">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Location
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Lucknow</a>
+                    <a class="dropdown-item" href="#">Delhi</a>
+                    <a class="dropdown-item" href="#">Mumbai</a>
+                    <a class="dropdown-item" href="#">Bangalore</a>
+                    <a class="dropdown-item" href="#">Hyderabad</a>
+                  </div>
+                </div>
+                <div class="dropdown float-md-right">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Log-in
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">sign-up</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End header -->
+
+        <!-- start Home page -->
+        <div id="content">
+          <div class="container">
+            <div class="row">
+              <h1 style="font-family: 'Open Sans', sans-serif;" id="heading">Chomp-Champ<h1>
+                  <h1 id="subheading">Discover the best food & drinks</h1>
+                  <input type="text" class="form-control" id="searchbar"
+                    placeholder="Search for restaurant , cuisine or a dish" onkeyup="search(this)">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- output -->
+      <div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 offset-md-4" id="result"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collections -->
+      <div id="Collections">
+        <div class="container" id="collection">
+          <div class="row">
+            <div class="col-md-4">
+              <p>
+              <h2> Collections </h2>
+            </div>
+            <div class="col-md-10">
+              <h5>Explore curated lists of top restaurants, cafes, pubs, and bars </h5>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-md-4 offset-md-2" id="photo1"> <img
+                src="https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt="" height="240px" widht="800px">
+              <h3> Trending this week </h3>
+            </div>
+
+            <div class="col-md-4 offset-md-2" id="photo2"> <img
+                src="https://images.pexels.com/photos/1025113/pexels-photo-1025113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt="" height="230px">
+              <h2>Breweries</h2>
+            </div>
+      
+            <div class="col-md-4 offset-md-2" id="photo3"> <img
+                src="https://images.pexels.com/photos/2885917/pexels-photo-2885917.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt="" height="210px">
+              <h2>Pubs</h2>
+            </div>
+      
+            <div class="col-md-4 offset-md-2" id="photo4"> <img
+                src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/1/2018/05/15162214/30412253_768353343358148_623535513717964800_o.jpg"
+                alt="" height="195px">
+              <h3>Live Sports Screenings</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Get_the_app -->
+      <div id="Get_the_app">
+        <div class="container">
+          <div class="row">
+            <div class=" offset-md-1 col-md-3">
+              <img src="https://b.zmtcdn.com/data/pro/5722d9e687511d79616bcab92470734e1596187147.png" alt="" widht="300px"
+                height="500px">
+            </div>
+            <div class=" offset-md-1 col-md-6 of " id="app">
+              <h2>Get the Chomp-Champ App</h1>
+                <h5>We will send you a link, open it on your phone to download the app</h5>
+                <input type="radio" class="radio" value="Email">Email
+                <input type="radio" class="radio" value="Phone">Phone
+                <input type="text" class="form-control" placeholder="Email" id="get_app">
+                <button id="butt">Share app link</button> <br>
+                <small>Download app from</small>
+                <img src="https://freepngimg.com/thumb/apple/58663-app-google-play-store-apple-download-hd-png.png" alt=""
+                  widht="120px" height="100px" class="soc">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End get the app -->
+      <!-- End Home page -->
+
+      <!-- Locations -->
+      <div id="locations">
+        <div class="container">
+          <div class="row">
+            <h1>Our Locations</h1>
+          </div>
+          <div class="row">
+            <div class="col-md-5 offset-md-1" id="loc1">
+              <h2>Bangalore</h2>
+            </div>
+            <div class="col-md-5 offset-md-1" id="loc2">
+              <h2>Delhi</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-5 offset-md-1" id="loc3">
+              <h2>Lucknow</h2>
+            </div>
+            <div class="col-md-5 offset-md-1" id="loc4">
+              <h2>Mumbai</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="offset-md-4 col-md-5 " id="loc5">
+              <h2>Hyderabad</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- start footer  -->
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-2"><span class="FH" id="FH">Company</span>
+              <ul id="company">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Who We Are</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Report Fraud</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4"><span class="FH" id="FH1">Careers</span>
+              <ul id="careers">
+                <li><a href="">Careers</a></li>
+                <p>Get ready for spontaneous applause, impromptu brainstorms, and the contagious excitement we bring to the
+                  office each day. We've built a team that does great work and has an awesome time doing it and we're always
+                  looking for more whip-smart people to pipe up, dive in, and get their hands dirty with us</p>
+              </ul>
+            </div>
+            <div class="col-md-3"><span class="FH">Contact</span> <br>
+              <p>Ipsum Street, Lorem Tower, <br>
+                MO, Columbia, 508000 <br>
+                +012 000 800 9999 <br>
+                info@admin.com </p>
+            </div>
+
+            <div class="col-md-3"><span class="FH">Social Links</span><br>
+              <ul id="social-icons">
+                <img src="https://i.pinimg.com/originals/b7/63/69/b763699fd1fa3bfb374442593ae642e1.png" alt="" widht="30px"
+                  height="35px">
+      
+                <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" alt="" widht="25px"
+                  height="30px">
+
+                <img src="https://i.pinimg.com/originals/63/9b/3d/639b3dafb544d6f061fcddd2d6686ddb.png" alt="" widht="25px"
+                  height="30px">
+      
+                <img src="https://cdn.iconscout.com/icon/free/png-512/google-plus-2-457949.png" alt="" widht="25px"
+                  height="25px">
+              </ul>
+      
+              <img src="https://freepngimg.com/thumb/apple/58663-app-google-play-store-apple-download-hd-png.png" alt=""
+                widht="150px" height="120px" class="soc">
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+      <!-- Start copyright -->
+      <div id="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10">
+              <p> © 2020 Chomp-Champ </p>
+            </div>
+            <div class="col-md-2">
+              <p id="DEVELOPER">Design By:Rahul singh</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End copyright -->
+      <!-- End footer  -->
+</body>
+</html>
