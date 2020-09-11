@@ -3121,19 +3121,6 @@ const data =  [
     "type_of_food": "Pizza"
   },
   {
-    "URL": "http://www.just-eat.co.uk/restaurants-adams-place/menu",
-    "_id": {
-      "$oid": "55f14312c7447c3da7051c35"
-    },
-    "address": "546-548 Bristol Road South",
-    "address line 2": "Birmingham",
-    "name": "Adams Place",
-    "outcode": "B29",
-    "postcode": "6BD",
-    "rating": 4.5,
-    "type_of_food": "American"
-  },
-  {
     "URL": "http://www.just-eat.co.uk/restaurants-adamsspice-ng7/menu",
     "_id": {
       "$oid": "55f14312c7447c3da7051c36"
