@@ -1,0 +1,29 @@
+/* .conatiner-fluid{
+  height: 100vh;
+  background-color: hotpink;
+} */
+
+.Contact{
+  height: 100vh;
+  background-color: aqua;
+  align-content: center;
+  align-self: center;
+  background-image: url(https://images.pexels.com/photos/270669/pexels-photo-270669.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background: linear-gradient(0, 0, 0, 0.5);
+}
+
+.col-md-5{
+  margin-left: 25px;
+}
+
+h2{
+  margin-left: 25px;
+}
+
+button{
+  border-radius: 10%;
+}
